@@ -3,16 +3,19 @@
   "bugs": {
     "url": "https://github.com/trek10inc/serverless-cloudformation-changesets/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "lodash": "^4.17.11",
-    "serverless": "^1.44.1"
+    "serverless": "^2"
   },
   "description": "A serverless plugin for creating CloudFormation ChangeSets",
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.13.1",
-    "mocha": "^4.0.1",
-    "sinon": "^4.1.3"
+    "eslint": "^7",
+    "mocha": "^9",
+    "sinon": "^11"
   },
   "engines": {
     "node": ">=6.0"
@@ -27,13 +30,13 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "serverless-cloudformation-changesets",
+  "name": "@gosquared/serverless-cloudformation-changesets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trek10inc/serverless-cloudformation-changesets"
+    "url": "https://github.com/gosquared/serverless-cloudformation-changesets"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha . ./lib"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
